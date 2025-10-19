@@ -1,0 +1,34 @@
+{
+  "name": "jsaibuildathon",
+  "version": "1.0.0",
+  "description": "> To reset your progress and select a different quest, click this button:\r >\r > [![Reset Progress](https://img.shields.io/badge/Reset--Progress-ff3860?logo=mattermost)](../../issues/new?title=Reset+Progress:+Back+to+Welcome&labels=reset&body=🔄+I+want+to+reset+my+progress+and+go+back+to+the+Welcome+page.%0A%0A**Please+wait+about+15+seconds.+Your+progress+will+be+reset,+this+issue+will+automatically+close,+and+you+will+be+taken+back+to+the+Welcome+page+to+select+a+new+quest.**)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizeCoder/jsaibuildathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/RizeCoder/jsaibuildathon/issues"
+  },
+  "homepage": "https://github.com/RizeCoder/jsaibuildathon#readme",
+  "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/openai": "^2.0.0",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
